@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="6" name="TestSuite" time="1.119" errors="0" skipped="0">
+  <properties>
+    <property name="DISPLAY" value=":0"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="CLUTTER_IM_MODULE" value="xim"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="XDG_GREETER_DATA_DIR" value="/var/lib/lightdm-data/sijil"/>
+    <property name="LOGNAME" value="sijil"/>
+    <property name="VTE_VERSION" value="4205"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PWD" value="/home/sijil/Documents"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="UNITY_HAS_3D_SUPPORT" value="true"/>
+    <property name="GDMSESSION" value="ubuntu"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="GPG_AGENT_INFO" value="/home/sijil/.gnupg/S.gpg-agent:0:1"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="JOB_NAME" value="Qapitol"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop"/>
+    <property name="user.name" value="sijil"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="XDG_RUNTIME_DIR" value="/run/user/1000"/>
+    <property name="UPSTART_JOB" value="unity7"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="GNOME_KEYRING_CONTROL" value=""/>
+    <property name="XDG_SESSION_DESKTOP" value="ubuntu"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Qapitol/1/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="path.separator" value=":"/>
+    <property name="WINDOWID" value="73400330"/>
+    <property name="BUILD_TAG" value="jenkins-Qapitol-1"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="GTK_MODULES" value="gail:atk-bridge:unity-gtk-module"/>
+    <property name="MANDATORY_PATH" value="/usr/share/gconf/ubuntu.mandatory.path"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="PATH" value="/home/sijil/.nvm/versions/node/v11.3.0/bin:/home/sijil/bin:/home/sijil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin"/>
+    <property name="QT_ACCESSIBILITY" value="1"/>
+    <property name="DESKTOP_SESSION" value="ubuntu"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /home/sijil/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Testmaven /home/sijil/.jenkins/war/WEB-INF/lib/remoting-3.28.jar /home/sijil/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar /home/sijil/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar 45611"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg"/>
+    <property name="JENKINS_SERVER_COOKIE" value="daba7ab61000a1ed"/>
+    <property name="SESSIONTYPE" value="gnome-session"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="XDG_SESSION_TYPE" value="x11"/>
+    <property name="XDG_SESSION_PATH" value="/org/freedesktop/DisplayManager/Session0"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="
+"/>
+    <property name="GTK2_MODULES" value="overlay-scrollbar"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Qapitol/1/"/>
+    <property name="SHLVL" value="1"/>
+    <property name="M2_HOME" value="/home/sijil/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Testmaven"/>
+    <property name="USER" value="sijil"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="UPSTART_EVENTS" value="xsession started"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="daba7ab61000a1ed"/>
+    <property name="UPSTART_SESSION" value="unix:abstract=/com/ubuntu/upstart-session/1000/1804"/>
+    <property name="MAVEN_HOME" value="/home/sijil/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Testmaven"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="SESSION_MANAGER" value="local/sijil-ThinkPad-L480:@/tmp/.ICE-unix/2021,unix/sijil-ThinkPad-L480:/tmp/.ICE-unix/2021"/>
+    <property name="DEFAULTS_PATH" value="/usr/share/gconf/ubuntu.default.path"/>
+    <property name="maven3.interceptor.common" value="/home/sijil/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated"/>
+    <property name="XAUTHORITY" value="/home/sijil/.Xauthority"/>
+    <property name="LESSCLOSE" value="/usr/bin/lesspipe %s %s"/>
+    <property name="XDG_MENU_PREFIX" value="gnome-"/>
+    <property name="XDG_CURRENT_DESKTOP" value="Unity"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="NVM_DIR" value="/home/sijil/.nvm"/>
+    <property name="maven3.interceptor" value="/home/sijil/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="QT_IM_MODULE" value="ibus"/>
+    <property name="NVM_BIN" value="/home/sijil/.nvm/versions/node/v11.3.0/bin"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-gnBBMvr95I"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Qapitol/"/>
+    <property name="UPSTART_INSTANCE" value=""/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Qapitol/1/display/redirect"/>
+    <property name="JENKINS_HOME" value="/home/sijil/.jenkins"/>
+    <property name="COMPIZ_CONFIG_PROFILE" value="ubuntu"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="GTK_IM_MODULE" value="ibus"/>
+    <property name="HUDSON_HOME" value="/home/sijil/.jenkins"/>
+    <property name="PATH+MAVEN" value="/home/sijil/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Testmaven/bin"/>
+    <property name="OLDPWD" value="/home/sijil"/>
+    <property name="INSTANCE" value=""/>
+    <property name="QT_QPA_PLATFORMTHEME" value="appmenu-qt5"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="/usr/lib/jvm/java-8-openjdk-amd64"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="SESSION" value="ubuntu"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Qapitol/display/redirect"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="os.version" value="4.15.0-42-generic"/>
+    <property name="user.home" value="/home/sijil"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="JOB" value="unity-settings-daemon"/>
+    <property name="IM_CONFIG_PHASE" value="1"/>
+    <property name="user.dir" value="/home/sijil/restapi"/>
+    <property name="maven.conf" value="/home/sijil/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Testmaven/conf"/>
+    <property name="GDM_LANG" value="en_US"/>
+    <property name="XDG_VTNR" value="7"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="UNITY_DEFAULT_PROFILE" value="unity"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.class.path" value="/home/sijil/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.12.jar:/home/sijil/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Testmaven/boot/plexus-classworlds-2.5.2.jar:/home/sijil/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Testmaven/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="XDG_SEAT" value="seat0"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="/home/sijil/.jenkins/workspace/Qapitol"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="LANG" value="en_IN"/>
+    <property name="GNOME_KEYRING_PID" value=""/>
+    <property name="LESSOPEN" value="| /usr/bin/lesspipe %s"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="/"/>
+    <property name="LANGUAGE" value="en_IN:en"/>
+    <property name="java.runtime.version" value="1.8.0_191-8u191-b12-0ubuntu0.16.04.1-b12"/>
+    <property name="XDG_SESSION_ID" value="c2"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="QT4_IM_MODULE" value="xim"/>
+    <property name="user.country" value="IN"/>
+    <property name="maven.home" value="/home/sijil/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Testmaven"/>
+    <property name="JOB_BASE_NAME" value="Qapitol"/>
+    <property name="XMODIFIERS" value="@im=ibus"/>
+    <property name="HOME" value="/home/sijil"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="QT_LINUX_ACCESSIBILITY_ALWAYS_ON" value="1"/>
+    <property name="NVM_CD_FLAGS" value=""/>
+    <property name="SSH_AUTH_SOCK" value="/run/user/1000/keyring/ssh"/>
+    <property name="LS_COLORS" value="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"/>
+    <property name="COMPIZ_BIN_PATH" value="/usr/bin/"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="com.qa.test.ApipostTest" name="createversion" time="0.369">
+    <failure type="org.apache.http.client.ClientProtocolException">org.apache.http.client.ClientProtocolException
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.qa.client.Restclient.post(Restclient.java:44)
+	at com.qa.test.ApipostTest.createversion(ApipostTest.java:55)
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71)
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	... 39 more
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@182decdb
+--------{&quot;description&quot;:&quot;Hello version!!&quot;,&quot;version&quot;:&quot;2.01&quot;,&quot;versionState&quot;:&quot;Testeddds&quot;}
+</system-out>
+    <system-err>java.io.FileNotFoundException: /home/sijil/restapi/home/sijil/qapitol-qa-api/src/test/resources/config.properties (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
+	at restapi.TestBase.&lt;init&gt;(TestBase.java:19)
+	at com.qa.test.ApipostTest.&lt;init&gt;(ApipostTest.java:23)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:24)
+	at org.testng.internal.ClassHelper.createInstance1(ClassHelper.java:423)
+	at org.testng.internal.ClassHelper.createInstance(ClassHelper.java:336)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:125)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:190)
+	at org.testng.TestClass.getInstances(TestClass.java:95)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:81)
+	at org.testng.TestClass.init(TestClass.java:73)
+	at org.testng.TestClass.&lt;init&gt;(TestClass.java:38)
+	at org.testng.TestRunner.initMethods(TestRunner.java:389)
+	at org.testng.TestRunner.init(TestRunner.java:271)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.&lt;init&gt;(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.&lt;init&gt;(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+java.io.FileNotFoundException: /home/sijil/restapi/home/sijil/qapitol-qa-api/src/test/resources/config.properties (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
+	at restapi.TestBase.&lt;init&gt;(TestBase.java:19)
+	at com.qa.test.APigetTest.&lt;init&gt;(APigetTest.java:19)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:24)
+	at org.testng.internal.ClassHelper.createInstance1(ClassHelper.java:423)
+	at org.testng.internal.ClassHelper.createInstance(ClassHelper.java:336)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:125)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:190)
+	at org.testng.TestClass.getInstances(TestClass.java:95)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:81)
+	at org.testng.TestClass.init(TestClass.java:73)
+	at org.testng.TestClass.&lt;init&gt;(TestClass.java:38)
+	at org.testng.TestRunner.initMethods(TestRunner.java:389)
+	at org.testng.TestRunner.init(TestRunner.java:271)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.&lt;init&gt;(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.&lt;init&gt;(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+java.io.FileNotFoundException: /home/sijil/restapi/home/sijil/qapitol-qa-api/src/test/resources/config.properties (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
+	at restapi.TestBase.&lt;init&gt;(TestBase.java:19)
+	at com.qa.test.APigetTest.&lt;init&gt;(APigetTest.java:21)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:24)
+	at org.testng.internal.ClassHelper.createInstance1(ClassHelper.java:423)
+	at org.testng.internal.ClassHelper.createInstance(ClassHelper.java:336)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:125)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:190)
+	at org.testng.TestClass.getInstances(TestClass.java:95)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:81)
+	at org.testng.TestClass.init(TestClass.java:73)
+	at org.testng.TestClass.&lt;init&gt;(TestClass.java:38)
+	at org.testng.TestRunner.initMethods(TestRunner.java:389)
+	at org.testng.TestRunner.init(TestRunner.java:271)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.&lt;init&gt;(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.&lt;init&gt;(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.test.ApipostTest" name="updateversion" time="0.329">
+    <failure message="expected [200] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.qa.test.ApipostTest.updateversion(ApipostTest.java:79)
+</failure>
+  </testcase>
+  <testcase classname="com.qa.test.APigetTest" name="deleteversion" time="0.098">
+    <failure message="expected [204] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: expected [204] but found [401]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.qa.test.APigetTest.deleteversion(APigetTest.java:73)
+</failure>
+    <system-out>401
+</system-out>
+  </testcase>
+  <testcase classname="com.qa.test.APigetTest" name="getall" time="0.109">
+    <failure message="expected [200] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.qa.test.APigetTest.getall(APigetTest.java:32)
+</failure>
+    <system-out>401
+</system-out>
+  </testcase>
+  <testcase classname="com.qa.test.APigetTest" name="getversion" time="0.104">
+    <failure message="expected [200] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.qa.test.APigetTest.getversion(APigetTest.java:41)
+</failure>
+  </testcase>
+  <testcase classname="com.qa.test.APigetTest" name="getversion1" time="0.11">
+    <failure message="expected [404] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: expected [404] but found [401]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.qa.test.APigetTest.getversion1(APigetTest.java:60)
+</failure>
+  </testcase>
+</testsuite>

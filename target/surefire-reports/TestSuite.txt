@@ -1,0 +1,67 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 1.337 sec <<< FAILURE!
+createversion(com.qa.test.ApipostTest)  Time elapsed: 0.369 sec  <<< FAILURE!
+org.apache.http.client.ClientProtocolException
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.qa.client.Restclient.post(Restclient.java:44)
+	at com.qa.test.ApipostTest.createversion(ApipostTest.java:55)
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71)
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	... 39 more
+
+updateversion(com.qa.test.ApipostTest)  Time elapsed: 0.329 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.qa.test.ApipostTest.updateversion(ApipostTest.java:79)
+
+deleteversion(com.qa.test.APigetTest)  Time elapsed: 0.098 sec  <<< FAILURE!
+java.lang.AssertionError: expected [204] but found [401]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.qa.test.APigetTest.deleteversion(APigetTest.java:73)
+
+getall(com.qa.test.APigetTest)  Time elapsed: 0.109 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.qa.test.APigetTest.getall(APigetTest.java:32)
+
+getversion(com.qa.test.APigetTest)  Time elapsed: 0.104 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.qa.test.APigetTest.getversion(APigetTest.java:41)
+
+getversion1(com.qa.test.APigetTest)  Time elapsed: 0.11 sec  <<< FAILURE!
+java.lang.AssertionError: expected [404] but found [401]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.qa.test.APigetTest.getversion1(APigetTest.java:60)
+
